@@ -21,9 +21,9 @@ class AdviceModel {
 class Slip {
   int? id;
   String? advice;
-  bool? isCompleted = false;
 
-  Slip({this.id, this.advice, this.isCompleted});
+
+  Slip({this.id, this.advice});
 
   Slip.fromJson(Map<String, dynamic> json) {
     id = json['id'];

@@ -16,9 +16,6 @@ class FavouritesRepository {
 
   List<AdviceModel> updateFavouriteAdviceState(bool isCompleted, int id) {
     for (AdviceModel element in favouritesList) {
-      if (element.slip!.id == id) {
-        element.slip!.isCompleted = isCompleted;
-      }
     }
     return favouritesList;
   }

@@ -21,7 +21,8 @@ class FavouritesLoaded extends FavouritesState {
 
   @override
   Map<String, dynamic> toJson() {
-    return {'favourites': listOfFavourites};
+    //converts list of favourites to json while storing the list
+    return {'favourites' : listOfFavourites};
   }
 }
 

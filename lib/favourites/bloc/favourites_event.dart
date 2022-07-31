@@ -27,7 +27,7 @@ class RemoveFavourites extends FavouritesEvent {
 
 class UpdateFavouritesState extends FavouritesEvent {
   final bool isCompleted;
-  final String id;
+  final int id;
 
   const UpdateFavouritesState(this.isCompleted, this.id);
 
